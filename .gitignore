@@ -1,5 +1,8 @@
 # Own additions. Everything below these from GitHub template.
 .idea
+log.html
+report.html
+output.xml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
