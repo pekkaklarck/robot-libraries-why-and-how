@@ -15,8 +15,6 @@ Lines should be shorter than
     END
     IF    ${long lines} == 0
         Log    All ${{len($lines)}} lines shorter than ${max}.
-    ELSE IF    ${long lines} == 1
-        Fail    1 line longer than ${max}.
     ELSE
         Fail    ${long lines} lines longer than ${max}.
     END
