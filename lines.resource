@@ -9,7 +9,7 @@ Lines should be shorter than
     FOR    ${lineno}    ${line}    IN ENUMERATE   @{lines}    start=1
         ${length} =    Get Length    ${line}
         IF   ${length} > ${max}
-            Log    Line ${lineno} lenght is ${length} which is over ${max}.
+            Log    Line ${lineno} length ${length} is over ${max}.
             ${long lines} =    Evaluate    ${long lines} + 1
         END
     END
