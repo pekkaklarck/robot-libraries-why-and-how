@@ -1,7 +1,6 @@
 *** Settings ***
 Library           OperatingSystem
-Library           lines.py
-#Resource          lines.resource
+Resource          lines.resource
 
 *** Variables ***
 ${STRING}         SEPARATOR=\n
@@ -19,5 +18,5 @@ Failing
     Lines should be shorter than    ${STRING}    20
 
 Lot of lines
-    ${file} =    Get file    ${CURDIR}/10000-lines.txt
+    ${file} =    Get file    ${CURDIR}/100-lines.txt
     Lines should be shorter than    ${file}    20
