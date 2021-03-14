@@ -6,7 +6,7 @@ Lines should be shorter than
     [Arguments]    ${string}    ${max}
     ${lines} =    Split to Lines    ${string}
     ${long lines} =    Set Variable    0
-    FOR    ${lineno}    ${line}    IN ENUMERATE   @{lines}    start=1
+    FOR    ${lineno}    ${line}    IN ENUMERATE    @{lines}    start=1
         ${length} =    Get Length    ${line}
         IF   ${length} > ${max}
             Log    Line ${lineno} length ${length} is over ${max}.
