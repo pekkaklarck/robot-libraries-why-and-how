@@ -4,7 +4,7 @@ Materials related to my [RoboCon 2021 presentation](https://robocon.io/#creating
 about creating libraries for [Robot Framework](https://robotframework.org).
 
 This project contains an example test case file [lines.robot](lines.robot)
-that uses keyword `Lines should be shorter than` implemented in 
+that uses `Lines should be shorter than` keyword implemented in
 [lines.resource](lines.resource) resource file. That keyword is somewhat
 complicated and in the presentation I explain why moving such complex logic
 into a library is often a good idea. More importantly, I show how to do that
@@ -13,12 +13,12 @@ explaining all the steps along the way.
 
 The presentation is a mini-tutorial that you can either just watch or, if you
 are interested, follow hands-on so that you create the same library yourself.
-The presentation is not too technical so also non-programmes can watch it.
-Creating the library yourself requires some Python knowledge, but you don't
-need to know much. If you are interested on that, this is what else you need:
+The presentation is not too technical, so it is suitable also for non-programmes, 
+but creating the library yourself requires at least some Python knowledge.
+If you are interested in hands-on work, this is what else you need:
 
 1. [Python 3.6 or newer](https://www.python.org/downloads/) installed.
-2. [Robot Framework 4.0 or newer]https://pypi.org/project/robotframework/)
+2. [Robot Framework 4.0 or newer](https://pypi.org/project/robotframework/)
    installed. The created library works also with earlier versions, but
    the existing resource file uses RF 4.0 features.
 3. An editor or and IDE with Python support. Robot Framework support is a plus.
@@ -28,10 +28,10 @@ need to know much. If you are interested on that, this is what else you need:
 
 The presentation is prerecorded and will be streamed at a certain time, but
 conference participants can also watch it on their own pace either before or
-after that. There is, however, a live Q&A after streaming you may want to
-participate especially if you have questions related to the created keyword.
+after that. There is, however, a live Q&A after streaming that you may want to
+participate especially if you have questions related to the created library or
+other topics.
 
 The presentation will eventually be made publicly available, but that is not
 going to happen in the near future. If you want see the presentation now,
-get a ticket to the conference via https://robocon.io! Notice that all profits
-from the conference are spent for future Robot Framework development.
+get a ticket to the conference via https://robocon.io!
